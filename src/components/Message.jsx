@@ -21,6 +21,7 @@ const Message = ({ message }) => {
         <div className="chat-header pb-[3px] pl-1 text-slate-500">
           {message.name}
         </div>
+
         <div className="chat-bubble whitespace-pre-line break-all">
           {message.text}
         </div>
