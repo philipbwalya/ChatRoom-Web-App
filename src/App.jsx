@@ -8,7 +8,7 @@ import { AuthProvider } from "./context/AuthContext";
 
 function App() {
   return (
-    <div className="overflow-y-hidden h-screen main-container">
+    <div className="overflow-y-hidden h-screen">
     <AuthProvider>
       <Navbar />
       <Routes>
