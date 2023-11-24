@@ -12,7 +12,7 @@ const Navbar = () => {
   };
   return (
     <div>
-      <div className="navbar bg-base-100 justify-between">
+      <div className="navbar bg-base-100 justify-between fixed z-50 shadow-2xl">
         <a className="btn btn-ghost text-xl">Chat With Anyone</a>
         {currentUser ? (
           <button
