@@ -8,7 +8,8 @@ import { AuthProvider } from "./context/AuthContext";
 
 function App() {
   return (
-    <AuthProvider className="">
+    <div className="overflow-y-hidden h-screen main-container">
+    <AuthProvider>
       <Navbar />
       <Routes>
         <Route path="/" element={<Login />} />
@@ -22,6 +23,7 @@ function App() {
         />
       </Routes>
     </AuthProvider>
+    </div>
   );
 }
 
