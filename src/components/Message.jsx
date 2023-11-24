@@ -2,7 +2,7 @@ import { UserAuth } from "../context/AuthContext";
 import { format } from "date-fns";
 
 const Message = ({ message }) => {
-  const currentUser = UserAuth();
+  const {currentUser} = UserAuth();
   return (
     <div>
       <div
